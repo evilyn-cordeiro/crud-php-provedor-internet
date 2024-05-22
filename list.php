@@ -1,5 +1,5 @@
 <?php
-
+header("Access-Control-Allow-Origin: *");
 // Verifica se a requisição é do tipo GET
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     
